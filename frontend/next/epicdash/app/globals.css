@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --bg: #4d5c81;
+  --bgSoft: #4c6aa6;
+  --text: white;
+  --textSoft: #b7bac1;
+}
+
+@media (prefers-color-scheme: black) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+h2 {
+
+  text-align: center;
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg) !important;
+  color: var(--text) !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.SearchBar {
+  width: 200px;
+  max-width: 100%;
+  position: relative;
+}
+
+.SearchBar input {
+  background: rgba(255, 255, 255, 0.3);
+  border: 2px solid white;
+  width: 100%;
+}
+
+.SearchBar button {
+  background-color: white;
+  height: 100%;
+  aspect-ratio: 1;
+  position: absolute;
+  right: 0;
+}
+
+.list-group-item.active {
+  background-color: lightgray !important;
+  border-color: lightgray !important;
+  color: black !important;
+  border-left-color: blue !important;
+  border-left-width: 4px !important;
+}
