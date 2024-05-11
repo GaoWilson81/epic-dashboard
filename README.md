@@ -107,11 +107,11 @@ We chose Next.js because of its support of server side rendering aswell as easy 
 
 We chose Springboot because it is the best choice for developing your backend in Java given its easy of use and minimal boilerplate/setup.
 
-# Contribution
+# Contributions
 
-Malick Abban
-Matthew Brown
-Tony Shi
-Jacob Mixon
-Anish Arora
+* Malick Abban
+* Matthew Brown
+* Tony Shi
+* Jacob Mixon
+* Anish Arora
 
